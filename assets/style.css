@@ -1,0 +1,134 @@
+*{
+    margin:0; padding:0; box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg,#0fb9b1,#20bf6b);
+}
+
+/* ===== AUTH (LOGIN & REGISTER) ===== */
+.auth-wrap{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.auth-card{
+    width:420px;
+    background:#fff;
+    border-radius:16px;
+    padding:32px;
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+    text-align:center;
+}
+.auth-card h2{
+    color:#20bf6b;
+    margin-bottom:6px;
+}
+.auth-card .subtitle{
+    color:#666;
+    font-size:14px;
+    margin-bottom:18px;
+}
+.auth-card input{
+    width:100%;
+    padding:12px 14px;
+    margin:8px 0;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+.auth-card button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    background:#20bf6b;
+    color:#fff;
+    font-weight:600;
+    cursor:pointer;
+}
+.auth-card a{ color:#20bf6b; text-decoration:none; }
+
+/* ===== NAVBAR ===== */
+.navbar{
+    background:#0b8f6a;
+    padding:14px 30px;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.navbar a{
+    color:#fff;
+    margin-left:18px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* ===== DASHBOARD ===== */
+.container{
+    padding:30px;
+}
+.section-title{
+    color:#0b8f6a;
+    margin-bottom:12px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+}
+.card{
+    background:#fff;
+    border-radius:14px;
+    padding:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+.card h4{ color:#20bf6b; margin-bottom:8px; }
+.card p{ color:#555; font-size:14px; line-height:1.6; }
+
+/* ===== TABLE & FORM ===== */
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+.table th,.table td{
+    border-bottom:1px solid #eee;
+    padding:10px;
+    text-align:left;
+}
+.form-box{
+    max-width:500px;
+    background:#fff;
+    padding:24px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+.form-box input, .form-box select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+.card {
+    border-radius:14px;
+    padding:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    color:#000;
+    background:#fff;
+    text-align:center; /* biar teks rapih di tengah card */
+}
+
+.card h4 {
+    margin-bottom:10px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.card p {
+    margin:4px 0;
+    font-size:14px;
+    line-height:1.4;
+}
+
